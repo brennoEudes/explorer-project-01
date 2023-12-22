@@ -1,0 +1,65 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+#hero {
+  width: 592px;
+  margin: 0px auto 72px; /* Auto: Alinha a caixa na tentativa de igualar os espaços vazios! Tb chamado de shorthand. */
+}
+
+#hero img {
+  margin-bottom: 72px;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  color: #000000;
+  font-size: 49px;
+  font-weight: normal;
+  line-height: 56px;
+  margin-bottom: 32px;
+}
+
+h1 span {
+  font-weight: bold;
+}
+
+span,
+a {
+  color: #ff9900;
+}
+
+p,
+footer {
+  color: #7d7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+footer {
+  margin-bottom: 33px;
+}
+
+.line {
+  width: 568px;
+  border: 1px #eceff2 solid;
+  margin: 0px auto 8px;
+}
+
+footer a + a {
+  /* seleciona o "a" que possui um "a" anterior a ele. Pode ser entendido mais facilmente lendo de trás p/frente. */
+  margin-left: 28px;
+}
+
+#balls {
+  position: fixed; /* Habilita novas propriedades. Cria um novo layer*/
+  bottom: 0px;
+  right: 0px;
+}
